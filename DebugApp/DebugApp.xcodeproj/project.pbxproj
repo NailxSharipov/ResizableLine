@@ -11,7 +11,7 @@
 		54015E6F27FDFA490088BEB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54015E6E27FDFA490088BEB8 /* ContentView.swift */; };
 		54015E7127FDFA4B0088BEB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54015E7027FDFA4B0088BEB8 /* Assets.xcassets */; };
 		54015E7427FDFA4B0088BEB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54015E7327FDFA4B0088BEB8 /* Preview Assets.xcassets */; };
-		547154D427FDFEDB003D7421 /* ResizableLine in Frameworks */ = {isa = PBXBuildFile; productRef = 547154D327FDFEDB003D7421 /* ResizableLine */; };
+		546F15AD27FE0D8C0073CF4B /* ResizableLine in Frameworks */ = {isa = PBXBuildFile; productRef = 546F15AC27FE0D8C0073CF4B /* ResizableLine */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		54015E6E27FDFA490088BEB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54015E7027FDFA4B0088BEB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54015E7327FDFA4B0088BEB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		54015E7B27FDFA600088BEB8 /* ResizableLine */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ResizableLine; path = ../ResizableLine; sourceTree = "<group>"; };
+		546F15AB27FE0D7C0073CF4B /* ResizableLine22 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ResizableLine22; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				547154D427FDFEDB003D7421 /* ResizableLine in Frameworks */,
+				546F15AD27FE0D8C0073CF4B /* ResizableLine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 		54015E7A27FDFA600088BEB8 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				54015E7B27FDFA600088BEB8 /* ResizableLine */,
+				546F15AB27FE0D7C0073CF4B /* ResizableLine22 */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -104,7 +104,7 @@
 			);
 			name = DebugApp;
 			packageProductDependencies = (
-				547154D327FDFEDB003D7421 /* ResizableLine */,
+				546F15AC27FE0D8C0073CF4B /* ResizableLine */,
 			);
 			productName = DebugApp;
 			productReference = 54015E6927FDFA490088BEB8 /* DebugApp.app */;
@@ -364,7 +364,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		547154D327FDFEDB003D7421 /* ResizableLine */ = {
+		546F15AC27FE0D8C0073CF4B /* ResizableLine */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ResizableLine;
 		};
