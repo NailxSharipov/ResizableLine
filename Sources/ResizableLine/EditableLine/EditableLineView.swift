@@ -205,12 +205,12 @@ public struct EditableLineView<Content: View>: View {
                 self.feedbackGenerator?.prepare()
             }
         }
-        
-        
-        if !newLeft.isSame(self.leftEnd) {
+
+        if self.leftEnd != newLeft {
             self.leftEnd = newLeft
         }
-        if !newRight.isSame(self.rightEnd) {
+        
+        if self.rightEnd != newRight {
             self.rightEnd = newRight
         }
     }
@@ -223,13 +223,4 @@ struct EditableLineView_Previews: PreviewProvider {
             Color.red
         }
     }
-}
-
-
-private extension CGFloat {
-    
-    func isSame(_ value: CGFloat) -> Bool {
-        return abs(self - value) < 0.00001
-    }
-    
 }

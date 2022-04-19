@@ -12,12 +12,12 @@ struct ContentView: View {
     
     final class ViewModel: ObservableObject {
         
-        @Published var leftEnd: CGFloat = 0.2 {
+        @Published var leftEnd: CGFloat = 0 {
             didSet {
                 print(leftEnd)
             }
         }
-        @Published var rightEnd: CGFloat = 0.8 {
+        @Published var rightEnd: CGFloat = 1 {
             didSet {
                 print(rightEnd)
             }
@@ -39,7 +39,8 @@ struct ContentView: View {
                 frontColor: .yellow,
                 ruler: ruler,
                 leftEnd: $viewModel.leftEnd,
-                rightEnd: $viewModel.rightEnd) {
+                rightEnd: $viewModel.rightEnd
+            ) {
                 RulerView(
                     a: 16,
                     majorHeight: 20,
